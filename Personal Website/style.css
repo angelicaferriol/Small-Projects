@@ -1,0 +1,93 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f5f5f5; /* Single background color */
+    color: #000; /* Black text */
+    line-height: 1.6;
+    font-size: 16px;
+    padding: 0;
+    display: flex;
+    flex-direction: row; /* Align nav and content side by side */
+    min-height: 100vh; /* Ensure full height of viewport */
+}
+
+/* Left Navigation */
+nav {
+    width: 200px; /* Fixed width for navigation */
+    padding-top: 20px;
+    position: sticky;
+    top: 0;
+    background-color: #f5f5f5; /* Same background as body */
+    border-right: 1px solid #ddd; /* Add a light border for separation */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin-bottom: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 1rem;
+    display: block;
+    padding: 5px 0;
+}
+
+/* Hover Effect */
+nav ul li a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Active Link - Bold and Underlined */
+nav ul li a.active {
+    font-weight: bold; /* Make text bold for active page */
+    text-decoration: underline; /* Ensure underlined as well */
+}
+
+/* Right Main Content */
+main {
+    flex: 1;
+    padding: 20px;
+}
+
+main h2 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+main p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    font-size: 0.9rem;
+    padding: 10px 0;
+    background-color: #f5f5f5;
+    width: 100%;
+    margin-top: 20px;
+    position: relative;
+    bottom: 0;
+}
