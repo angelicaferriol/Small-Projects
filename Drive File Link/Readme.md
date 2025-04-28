@@ -1,4 +1,8 @@
-**Steps to Run the Script**
+# Note
+### This is a simple tool I built using App Script so I can get the link of multiple files in Google Drive in one click.
+### Status: Done
+---
+## Steps to Run the Script
   1. Open the Google Sheet where you want to use the script.
   2. Open the Apps Script editor via Extensions > Apps Script.
   3. Copy and paste the updated script into the Apps Script editor.
