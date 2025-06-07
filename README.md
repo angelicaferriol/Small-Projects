@@ -4,10 +4,7 @@ Welcome to my personal playground! This repository is a collection of small proj
 
 ## Project List
 - **Drive File Link** – A simple readme with a link to my Google Drive.
-- **Personal Website** – Basic personal site with some extras added.
-- **Random Activity** – Python script that generates random marine-related creator activities.
 - **Whack-A-Mole** – A classic mini-game project.
-- **Habit Tracker** – A basic habit tracker app with component structure.
 
 ## Languages Used
 - Jupyter Notebook 
